@@ -1,6 +1,6 @@
 # Non-Blocking Retries in Kafka Consumers (demo)
 
-This repository demonstrates how to handle exceptions in Kafka Consumer using retry policy and DLQ (Dead Letter Queue).
+This repository demonstrates how to handle Kafka Consumer exceptions in a non-blocking manner using retry topics and DLQ (Dead Letter Queue).
 
 ## Getting Started
 
