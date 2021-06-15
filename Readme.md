@@ -28,7 +28,7 @@ This repository demonstrates how to handle Kafka Consumer exceptions in a non-bl
     # >>>Produced 2 messages.
   ```
 
-* Verify retry policy and dlq forwarding using application logs. Below sample application log:
+* Investigate application logs.
   ```shell
   
   # 2021-06-15 17:20:12.200 [-listener-0-C-1] com.rbiedrawa.kafka.app.MyTopicListener  : Received event 1 from topic my.topic.events
