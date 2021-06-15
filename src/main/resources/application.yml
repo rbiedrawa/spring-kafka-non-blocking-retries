@@ -1,0 +1,17 @@
+spring:
+  application:
+    name: "my-service"
+  kafka:
+    bootstrap-servers: "localhost:9092"
+    consumer:
+      value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+      key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
+
+management:
+  endpoint:
+    health:
+      show-details: ALWAYS
+  endpoints:
+    web:
+      exposure:
+        include: health,info
