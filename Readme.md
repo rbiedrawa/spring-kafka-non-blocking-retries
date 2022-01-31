@@ -4,7 +4,7 @@ This repository demonstrates how to handle Kafka Consumer exceptions in a non-bl
 
 ## Getting Started
 
-### Prerequisite
+### Prerequisites
 
 * Java 11
 * Docker
